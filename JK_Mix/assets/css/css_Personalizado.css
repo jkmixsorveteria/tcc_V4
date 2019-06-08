@@ -1,0 +1,394 @@
+/*--  INICIO BODY  --*/
+
+body {
+    margin-bottom: 60px;
+}
+
+
+/*--  FIM BODY  --*/
+
+
+/*--  NAV  --*/
+
+
+/*Definir cor de fundo do Menu*/
+
+nav.menu {
+    background-color: #563d7c;
+}
+
+
+/*Definir cor das letras do Menu*/
+
+nav ul li.menu a {
+    color: #fff !important;
+}
+
+
+/*Definir cor ao passar o mouse*/
+
+nav ul li.menu a:hover {
+    color: darkorchid !important;
+}
+
+
+/*Fixar Menu no Topo*/
+
+header {
+    margin-bottom: 56px !important;
+}
+
+/*-- FIM NAV --*/
+
+
+
+
+
+/* INICIO CAROUSEL */
+
+
+/*Altura das Imagens Carrousel*/
+
+.carousel-control-next-icon {
+    width: 55px;
+    height: 45px;
+}
+
+.carousel-control-prev-icon {
+    width: 55px;
+    height: 45px;
+    top: 250px;
+    bottom: 250px;
+    left: 0px;
+    right: 100px;
+}
+
+
+/*Tamanho do Banner do Carousel*/
+
+.carousel-inner > .carousel-item > img {
+    min-width: 100%;
+    min-height: 60px;
+    max-height: 580px;
+}
+
+
+/* FIM CAROUSEL */
+
+/*INICIO BANNER - CALDA DERRAMANDO*/
+
+.frame_conteudo_img{
+    position:relative;
+    z-index: 1;
+}
+
+.frame_conteudo_img img{
+    height: 180px;
+}
+
+/*FIM BANNER - CALDA DERRAMANDO*/
+
+/*INICIO JUMBUTRON - SERVICO*/
+
+.servicos {
+    background-color: #ffffff;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+    z-index: 0;
+}
+
+.servicos .titulo-servico {
+    font-family: 'Passion One', cursive;
+    font-size: 75px;
+}
+
+@media only screen and (max-width: 800px)and (min-width: 400px) {
+    .servicos .titulo-servico{
+        font-size: 55px;
+    }
+}
+
+
+.card-personalizado {
+    background: #6A5ACD;
+    color: #fff;
+}
+
+
+/*FIM JUMBUTRON - SERVICO*/
+
+
+
+/*INICIO JUMBUTRON*/
+
+.video {
+    background-image: url("../imagens/AdicionarExtensoesImagens/banner04.jpg"); max-width: 100%; height: auto;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+}
+
+.video .titulo-video{
+    font-family: 'Passion One', cursive;
+    font-size: 75px;
+}
+
+@media only screen and (max-width: 800px)and (min-width: 400px) {
+    .video .titulo-video{
+        font-size: 55px;
+    }
+}
+
+
+/*
+@media only screen and (max-width: 800px) {
+    .video {
+        background-image: url("~/chocolate_derramando_2.jpg");
+    }
+}
+*/
+
+/*FIM JUMBUTRON - VIDEO*/
+
+
+/*INICIO JUMBUTRON - BLOG-HOME*/
+
+.blog-home {
+    background-color: #ffffff;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+}
+
+.blog-home .titulo-blog{
+    font-family: 'Passion One', cursive;
+    font-size: 75px;
+}
+
+@media only screen and (max-width: 800px)and (min-width: 400px) {
+    .blog-home .titulo-blog{
+        font-size: 55px;
+    }
+}
+
+
+/*FIM JUMBUTRON - BLOG-HOME*/
+
+
+
+/*INICIO ICONES*/
+
+
+/*TAMANHO - COR DE FUNDO - FONTE*/
+
+.tamanho-icone {
+    background: #6A5ACD;
+    color: #ffffff;
+    font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.icon-row {
+    padding: 5px 0 0px;
+}
+
+.ion {
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+.preview-icon {
+    vertical-align: bottom;
+}
+
+.preview-scale {
+    color: #888;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.step {
+    display: inline-block;
+    line-height: 1;
+    position: relative;
+    width: 100%;
+}
+
+.step i {
+    -webkit-transition: opacity .3s;
+    -moz-transition: opacity .3s;
+    -ms-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    transition: opacity .3s;
+}
+
+
+/*OPACIDADE*/
+
+.step:hover i {
+    opacity: .3;
+}
+
+
+/*TAMANHOS DOS ÍCONES*/
+
+.size-12 {
+    font-size: 12px;
+}
+
+.size-14 {
+    font-size: 14px;
+}
+
+.size-16 {
+    font-size: 16px;
+}
+
+.size-18 {
+    font-size: 18px;
+}
+
+.size-21 {
+    font-size: 21px;
+}
+
+.size-24 {
+    font-size: 24px;
+}
+
+.size-32 {
+    font-size: 32px;
+}
+
+.size-48 {
+    font-size: 48px;
+}
+
+.size-64 {
+    font-size: 64px;
+}
+
+.size-96 {
+    font-size: 96px;
+}
+
+/*FIM DO RODAPE*/
+
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/*INICIO - BANNER DIVULGAÇÃO*/
+.banner-divulgacao > .row > .imagem > img{
+    min-width: 100%;
+    min-height: 60px;
+    max-height: 750px;
+
+}
+
+
+/*FIM - BANNER DIVULGAÇÃO*/
+
+/*INICIO FOOTER*/
+
+.footer {
+    background-color: #563d7c;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+
+/*FIM DO FOOTER*/
+
+/* INÍCIO - BOTÃO WHATSAPP*/
+
+.btn_whatsapp img {
+    height: 80px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 100;
+
+}
+
+/* FIM - BOTÃO WHATSAPP*/
+
+/* INÍCIO - SOBRE-EMPRESA*/
+
+.sobre-empresa {
+    background-color: #ffffff;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+}
+
+/* FIM - SOBRE-EMPRESA*/
+
+/* INÍCIO - CONTATO*/
+
+.contato {
+    background-color: #ffffff;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+}
+
+/* FIM - CONTATO*/
+
+/* INÍCIO - BLOG*/
+
+.blog {
+    background-color: #ffffff;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .display-4 {
+        font-size: 3rem;
+    }
+}
+
+.blog-text a {
+    text-decoration: none;
+}
+
+/* FIM - BLOG*/
+
+/* INÍCIO - PAGINAÇÃO */
+
+.blog-pagination {
+    margin-bottom: 4rem;
+}
+
+.blog-pagination > .btn {
+    border-radius: 2rem;
+}
+
+.blog-post {
+    margin-bottom: 4rem;
+}
+
+.blog-post-title {
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+}
+
+.blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #999;
+}
+
+/* FIM - PAGINAÇÃO */

@@ -1,0 +1,20 @@
+{
+    "name": "Genilson",
+    "description": "Projeto JK MIX",
+    "authors":[
+        {
+        "name":"Equipe Tcc",
+        "email":"jk_mix_sorveteria@hotmail.com"
+    }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Core\\": "core",
+            "Sts\\": "app/sts" 
+        }
+    },
+    "require":{
+        
+    }
+    
+}
